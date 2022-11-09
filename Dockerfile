@@ -1,8 +1,12 @@
-FROM docker pull microsoft/dotnet:2.2.103-sdk
+FROM docker pull microsoft/dotnet:2.2.103-sdk AS build
 
-ENTRYPOINT ["dotnet", "BackRobotTDM.dll"]
-ARG source=.
-WORKDIR /app
+WORKDIR webapp
 EXPOSE 80
 EXPOSE 5004
-COPY $source .
+
+COPY ./* .*
+
+
+FROM docker pull microsoft/dotnet:2.2.103-sdk
+WORKDIR /webapp
+ENTRYPOINT ["dotnet", "BackRobotTDM.dll"]

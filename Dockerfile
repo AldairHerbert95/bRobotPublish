@@ -1,4 +1,4 @@
-FROM docker pull microsoft/dotnet:2.2.1-aspnetcore-runtime
+FROM docker pull microsoft/dotnet:2.2.103-sdk
 
 ENTRYPOINT ["dotnet", "BackRobotTDM.dll"]
 ARG source=.

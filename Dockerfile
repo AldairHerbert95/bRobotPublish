@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore:1.0.1
+FROM docker pull microsoft/dotnet:2.2.1-aspnetcore-runtime
 
 ENTRYPOINT ["dotnet", "BackRobotTDM.dll"]
 

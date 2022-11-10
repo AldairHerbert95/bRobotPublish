@@ -1,12 +1,7 @@
-FROM docker pull microsoft/dotnet:2.2.103-sdk AS build
-
-WORKDIR webapp
-EXPOSE 80
+FROM microsoft/aspnetcore:1.0.1
+ENTRYPOINT ["dotnet", "BackRobotTDM.dll"]
+ARG source=.
+COPY publish /app .
+WORKDIR /app
 EXPOSE 5004
 
-COPY ./* .*
-
-
-FROM docker pull microsoft/dotnet:2.2.103-sdk
-WORKDIR /webapp
-ENTRYPOINT ["dotnet", "BackRobotTDM.dll"]

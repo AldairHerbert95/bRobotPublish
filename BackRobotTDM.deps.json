@@ -12,6 +12,7 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.10",
           "Microsoft.EntityFrameworkCore.InMemory": "6.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.10",
+          "ModelsNEnums": "1.0.0",
           "Newtonsoft.Json": "13.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7",
           "Portable.BouncyCastle": "1.9.0",
@@ -20,7 +21,8 @@
           "Swashbuckle.AspNetCore": "6.2.3",
           "ZXing.Net.Mobile": "2.4.1",
           "itext7": "7.2.4",
-          "itext7.commons": "7.2.4"
+          "itext7.commons": "7.2.4",
+          "mSID": "1.0.0"
         },
         "runtime": {
           "BackRobotTDM.dll": {}
@@ -1078,6 +1080,24 @@
             "fileVersion": "0.16.2.0"
           }
         }
+      },
+      "ModelsNEnums/1.0.0": {
+        "runtime": {
+          "ModelsNEnums.dll": {}
+        }
+      },
+      "mSID/1.0.0": {
+        "dependencies": {
+          "BarcodeLib": "2.4.0",
+          "ModelsNEnums": "1.0.0",
+          "Newtonsoft.Json": "13.0.1",
+          "QRCoder": "1.4.1",
+          "itext7": "7.2.4",
+          "itext7.commons": "7.2.4"
+        },
+        "runtime": {
+          "mSID.dll": {}
+        }
       }
     }
   },
@@ -1912,6 +1932,16 @@
       "sha512": "sha512-iCL2WcqOyUnC1iFFdzXijk0EXfoLMDqW88MyhoTZigSyhJZM2C5hKgSZVyfx9E35tgkde/IZwHkk8cVDnbQlYg==",
       "path": "zxing.net.mobile/2.4.1",
       "hashPath": "zxing.net.mobile.2.4.1.nupkg.sha512"
+    },
+    "ModelsNEnums/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "mSID/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

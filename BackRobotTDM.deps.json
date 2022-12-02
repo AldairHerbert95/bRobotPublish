@@ -19,6 +19,7 @@
           "Portable.BouncyCastle": "1.9.0",
           "QRCoder": "1.4.1",
           "Quartz": "3.5.0",
+          "SAT": "1.0.0",
           "SocketIOClient": "3.0.6",
           "Swashbuckle.AspNetCore": "6.2.3",
           "ZXing.Net.Mobile": "2.4.1",
@@ -39,6 +40,14 @@
           "lib/netstandard2.0/BarcodeStandard.dll": {
             "assemblyVersion": "2.4.0.0",
             "fileVersion": "2.4.0.0"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.46": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.46.0",
+            "fileVersion": "1.11.46.0"
           }
         }
       },
@@ -1193,6 +1202,15 @@
         "runtime": {
           "mSID.dll": {}
         }
+      },
+      "SAT/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.46",
+          "Modelos": "1.0.0"
+        },
+        "runtime": {
+          "SAT.dll": {}
+        }
       }
     }
   },
@@ -1208,6 +1226,13 @@
       "sha512": "sha512-SXMILkQm3jpngFmSa6AafsaJNid8UWCZh1v4w2oWxBzXnuVaL/S7H+nMxslWbPOPz1AVaLenRbFgy3OtX9J4dQ==",
       "path": "barcodelib/2.4.0",
       "hashPath": "barcodelib.2.4.0.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dLMn4EVfJBHWmWK4Uh0XGD76FPLHI0qr2Tm0s1m/xmgiHb1JUb9zB8AzO8HtrkBBlMN6JfCUBYddhqC0hZNR+g==",
+      "path": "htmlagilitypack/1.11.46",
+      "hashPath": "htmlagilitypack.1.11.46.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -2095,6 +2120,11 @@
       "sha512": ""
     },
     "mSID/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SAT/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

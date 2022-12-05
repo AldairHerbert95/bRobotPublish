@@ -500,6 +500,18 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "Selenium.WebDriver/4.7.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/108.0.5359.7100": {},
       "SocketIOClient/3.0.6": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -1206,7 +1218,9 @@
       "SAT/1.0.0": {
         "dependencies": {
           "HtmlAgilityPack": "1.11.46",
-          "Modelos": "1.0.0"
+          "Modelos": "1.0.0",
+          "Selenium.WebDriver": "4.7.0",
+          "Selenium.WebDriver.ChromeDriver": "108.0.5359.7100"
         },
         "runtime": {
           "SAT.dll": {}
@@ -1625,6 +1639,20 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WNGX6JxjBS5f79PQnrB4oO+5U83f8tZfND+rqX2YJVHPdv3xS/zZwljWqGu5UDhluo3kEuuT+DuGEZW8/+9fOA==",
+      "path": "selenium.webdriver/4.7.0",
+      "hashPath": "selenium.webdriver.4.7.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/108.0.5359.7100": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wrDUVsoQHQct9BodCFgRi1LMKGhwv27ANuS8l7ZXcOn/VS2NqcxxBhSAkcucx4CoZgidny0+ifnFS95nTmnVvg==",
+      "path": "selenium.webdriver.chromedriver/108.0.5359.7100",
+      "hashPath": "selenium.webdriver.chromedriver.108.0.5359.7100.nupkg.sha512"
     },
     "SocketIOClient/3.0.6": {
       "type": "package",

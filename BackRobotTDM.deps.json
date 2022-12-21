@@ -410,6 +410,12 @@
       "Newtonsoft.Json.Bson/1.0.2": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.2.22727"
+          }
         }
       },
       "Npgsql/6.0.7": {

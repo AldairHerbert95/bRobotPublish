@@ -410,12 +410,6 @@
       "Newtonsoft.Json.Bson/1.0.2": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.2"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.2.22727"
-          }
         }
       },
       "Npgsql/6.0.7": {
@@ -1154,17 +1148,11 @@
         }
       },
       "Modelos/1.0.0": {
-        "dependencies": {
-          "BarcodeLib": "2.4.0"
-        },
         "runtime": {
           "Modelos.dll": {}
         }
       },
       "ModelsNEnums/1.0.0": {
-        "dependencies": {
-          "BarcodeLib": "2.4.0"
-        },
         "runtime": {
           "ModelsNEnums.dll": {}
         }
@@ -1199,7 +1187,6 @@
       },
       "SAT/1.0.0": {
         "dependencies": {
-          "BarcodeLib": "2.4.0",
           "HtmlAgilityPack": "1.11.46",
           "Modelos": "1.0.0",
           "ModelsNEnums": "1.0.0",

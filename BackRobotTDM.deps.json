@@ -1159,9 +1159,6 @@
         }
       },
       "ModelsNEnums/1.0.0": {
-        "dependencies": {
-          "BarcodeLib": "2.4.0"
-        },
         "runtime": {
           "ModelsNEnums.dll": {}
         }
@@ -1196,7 +1193,6 @@
       },
       "SAT/1.0.0": {
         "dependencies": {
-          "BarcodeLib": "2.4.0",
           "HtmlAgilityPack": "1.11.46",
           "Modelos": "1.0.0",
           "ModelsNEnums": "1.0.0",

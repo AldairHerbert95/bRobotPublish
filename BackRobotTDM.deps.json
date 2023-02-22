@@ -9,6 +9,7 @@
       "BackRobotTDM/1.0.0": {
         "dependencies": {
           "BarcodeLib": "2.4.0",
+          "GeneralTools": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.10",
           "Microsoft.EntityFrameworkCore.InMemory": "6.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.10",
@@ -1153,6 +1154,11 @@
           }
         }
       },
+      "GeneralTools/1.0.0": {
+        "runtime": {
+          "GeneralTools.dll": {}
+        }
+      },
       "Modelos/1.0.0": {
         "dependencies": {
           "BarcodeLib": "2.4.0"
@@ -2091,6 +2097,11 @@
       "sha512": "sha512-iCL2WcqOyUnC1iFFdzXijk0EXfoLMDqW88MyhoTZigSyhJZM2C5hKgSZVyfx9E35tgkde/IZwHkk8cVDnbQlYg==",
       "path": "zxing.net.mobile/2.4.1",
       "hashPath": "zxing.net.mobile.2.4.1.nupkg.sha512"
+    },
+    "GeneralTools/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Modelos/1.0.0": {
       "type": "project",
